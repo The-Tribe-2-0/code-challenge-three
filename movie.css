@@ -1,0 +1,95 @@
+/* re-usable classes */
+:root {
+    --colorOne:#cccdd1;
+    --colorTwo: #030a14;
+    --colorThree: #2f1a1a;
+    --colorFour: #040d16;
+    /* --colorFive:#612e18; */
+    --colorSix:#0A369D
+  }
+/* html section */
+*{padding:0px;
+margin:0px;
+box-sizing:border-box;
+color:var(--colorTwo);
+font-family: Arial, Helvetica, sans-serif;
+}
+p#showtime-text{
+    position: relative;
+    color:var(--colorSix);
+}
+div#showtime{
+   position: relative;
+   top:-40px;
+   left:120px;
+   color: black;
+}
+div#runtime{
+   position: relative;
+   top:-123px;
+   left:340px;
+   color: pink;
+}
+p#runtime-text{
+    position: relative;
+    top:-83px;
+    left:240px;
+    color: red;
+}
+/* section#hero-section */
+section#hero-section{
+    /* background-color: var(--colorFive); */
+    background: url(https://images.unsplash.com/photo-1533509163308-cddb96eda6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+}
+img {width:500px;
+    height:500px;
+    border:3px solid rgb(136, 25, 25);
+    border-radius:10px;}
+h1{
+text-align: center;
+font-size:50px;
+background-color:var(--colorOne);
+color:rgb(136, 47, 47);
+display:inline-block;
+width:100%;
+}
+h2{
+    margin-left:100px;
+    font-size:35px;
+    text-decoration: underline;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+div#movie-display{
+position: relative;
+left:500px;
+top:-570px;
+}
+ul#films li {
+    list-style:none;
+    font-size:25px;
+    margin-left:20px;
+    line-height:35px;
+}
+ul#films li:hover {
+color: yellow;
+}
+h3#movie-title{
+    font-size:35px;
+    margin-left:0px;
+}
+/* section #movie-tickets */
+section#movie-tickets{
+    position: relative;
+    left:700px;
+    top:-710px;
+}
+.bottom-text{
+    line-height:40px ;
+    font-size:25px;
+}
+button{
+    font-size:25px;
+    height:60px;
+    width:300px;
+}
